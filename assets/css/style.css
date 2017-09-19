@@ -92,7 +92,12 @@ section { overflow: hidden; }*/
     padding-bottom: 40px;
 }
 
-
+.fillerImg{
+    background: url('../images/background/filler.jpeg');
+    background-attachment: fixed;
+    width: 100%;
+    height: 400px;
+}
 /*text color*/
 
 .text-muted{}
@@ -1010,6 +1015,7 @@ Home Section style
 ==================*/
 .home{
     background: url(../images/background/header.jpeg) no-repeat bottom center;
+    background-attachment: fixed;
     background-size: cover;
     position: relative;
 }
@@ -1037,7 +1043,8 @@ About section style
     width:100%;
 }
 
-.about_bottom_content{}
+.about_bottom_content{
+}
 .about_bottom_content .about_bottom_item{}
 .ab_head{
     width:100%;
